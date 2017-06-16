@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="libyuv">
+      <UniqueIdentifier>{1ace031f-87e4-47b9-a430-2f6023194f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libyuv\include">
+      <UniqueIdentifier>{90e3b147-b4db-445c-8c71-b08a50e35a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libyuv\src">
+      <UniqueIdentifier>{6c39248f-7aeb-45d2-a870-f181134ecd25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="convertDemo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\compare.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\compare_common.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\compare_gcc.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\compare_neon.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\compare_neon64.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\compare_win.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\convert.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\convert_argb.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\convert_from.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\convert_from_argb.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\convert_jpeg.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\convert_to_argb.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\convert_to_i420.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\cpu_id.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\mjpeg_decoder.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\mjpeg_validate.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\planar_functions.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate_any.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate_argb.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate_common.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate_dspr2.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate_gcc.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate_msa.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate_neon.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate_neon64.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\rotate_win.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\row_any.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\row_common.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\row_dspr2.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\row_gcc.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\row_msa.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\row_neon.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\row_neon64.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\row_win.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale_any.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale_argb.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale_common.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale_dspr2.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale_gcc.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale_msa.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale_neon.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale_neon64.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\scale_win.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\video_common.cc">
+      <Filter>libyuv\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\libyuv.h">
+      <Filter>libyuv\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
